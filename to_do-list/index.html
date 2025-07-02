@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section id="headerTitle">
+                <h1>To Do List</h1>
+            </section>
+            <form id="menu">
+                <textarea type="text" placeholder="Add a new Task" required></textarea>
+                <button type="submit" id="taskSubmit">Add Task</button>
+            </form>
+        </header>
+        <main>
+            <section id="toDo">
+                <h2>To Do</h2>
+                <ul id="toDoList">
+                    <!-- tasks will be deployed here-->
+                </ul>
+            </section>
+            <section id="completed">
+                <h2>Completed</h2>
+                <ul id="completedList">
+                    <!-- completed tasks will be deployed here -->
+                </ul>
+            </section>
+            <button id="modeBtn" class="lightMode">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+            </button>
+        </main>
+    </body>
+</html>
